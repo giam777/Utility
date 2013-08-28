@@ -2,9 +2,9 @@ Utility
 =======
 
 Some utility for Oracle DB
-
+<pre>
 /*
-For work P_SYS_UTILITY need:
+For work P_SYS_UTILITY need: 
   directory UTIL_DIR with grants on read, write and execute on it
   file os_command.sh in this directory with RWX permission for user/group running RDBMS
   External organization table T_OS_COMMAND in directory UTIL_DIR with preprocessor os_command
@@ -53,3 +53,4 @@ comment on column T_SPACE_USAGE.TABLESPACE$ is 'Name of tablespace in BD';
 comment on column T_SPACE_USAGE.TYPE$ is 'Segment type';
 comment on column T_SPACE_USAGE.BYTES$ is 'Size in bytes';
 comment on column T_SPACE_USAGE.BLOCKS$ is 'Size in blocks';
+</pre>
