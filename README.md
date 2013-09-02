@@ -4,7 +4,7 @@ Utility
 Some utility for Oracle DB
 <pre>
 /*
-For work P_SYS_UTILITY need: 
+To work P_SYS_UTILITY need: 
   directory UTIL_DIR with grants on read, write and execute on it
   file os_command.sh in this directory with RWX permission for user/group running RDBMS
   External organization table T_OS_COMMAND in directory UTIL_DIR with preprocessor os_command
@@ -12,8 +12,6 @@ For work P_SYS_UTILITY need:
     Sample: UTIL_DIR is '/u01'
       touch /u01/os_command.sh
       chmod ug+x /u01/os_command.sh
-
-Gor work 
 
 */
 
